@@ -7,7 +7,7 @@
 }
 body{
 	font-family: montserrat;
-	background: url(nath.jpg);
+	background: url(randy.jpg);
 }
 nav{
 	background: #0082e6;
@@ -81,3 +81,35 @@ a .active,a:hover{
 	margin-top: 50px;
 	margin-left: 100px;
 }
+.tour{
+	font-size: 40px;
+	text-align: center;
+	margin-left: 100px;
+	margin-top: 50px;
+	color: red;
+	font-family: Papyrus;
+	font-weight: bold;
+}
+
+.container{
+     max-width: 1200px;
+     margin: auto;
+     background:none;
+}
+.gallery{
+    margin: 5px;
+    float: left;
+    width: 350px;
+    margin-top: 90px;
+    margin-left: 45px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 10px;
+    text-align: center;
+    color:darkred;
+    font-weight: bold;
+    font-size: 30px;
