@@ -1,80 +1,83 @@
 *{
-    padding:0;
-    margin:0;
-    text-decoration:none;
-    list-style:none;
-    box-sizing:border-box;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
 }
 body{
- font-family montserratnd;
- background:url(nath.jpg);
+	font-family: montserrat;
+	background: url(nath.jpg);
 }
 nav{
-background: #0082e6
-height:80px
-width:100%;
+	background: #0082e6;
+	height: 80px;
+	width: 100%;
 }
-label .logo{
-  color: red;
-  font-siza:35px:
-  line-height: 80px;
-  padding: 0px 100px;
-  font-weight:bold;
-  font-family:rockwell;
+label.logo{
+	color: red;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+	font-family: Rockwell;
 }
 nav ul{
-  float:right;
-  margin-right:20px;
+	float: right;
+	margin-right: 20px;
 }
 nav ul li{
-display:inline-block;
-line-height:80px;
-margin:0 5px;
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
 }
-nav ul li{
-  color:red;
+nav ul li a .active{
+	color: red;
+
 }
-nav ul li{
-  color:white;
-  fpnt-size:17px;
-  padding:7px 13px;
-  border-raidus:3px;
-  text-transition:uppercase;
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+
 }
-li a:hover not(.active){
+li a:hover:not(.active) {
   background-color: grey;
 }
-.active{
-  background:yellowgreen;
+
+.active {
+  background-color: yellowgreen;
 }
 .sidebar{
-  position:fied;
-  width:10%;
-  height:100%;
-  background-color:blue;
+	position: fixed;
+	width: 10%;
+	height: 100%;
+	background-color: blue;
+
 }
 .sidebar li a{
-  color: yellow;
-  font-siza:15px;
-  padding:20px;
-  border-bottom:1px solid black;
-  text-align:center;
+	color: yellow;
+	font-size: 15px;
+	padding: 20px;
+	border-bottom: 1px solid black;
+	text-align: center;
 }
-a .active, a:hover{
-  background:red;
-  transition:.5s;
+a .active,a:hover{
+    background: red;
+    transition: .5s ;
 }
 .about{
-  font-size:30px;
-  text-align:left;
-  mergin-top:100px;
-  margin-left:100px;
-  color:red;
+	font-size: 30px;
+	text-align: left;
+	margin-top: 100px;
+	margin-left: 100px;
+	color: red;
 }
 .age{
-  font-siza:30px;
-  text-align:left;
-  margin-top:50px;
-  margin-left:100px;
+	font-size: 30px;
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 100px;
 }
-  
